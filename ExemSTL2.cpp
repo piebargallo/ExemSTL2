@@ -1,5 +1,3 @@
-// A C++ program to demonstrate working of sort()
-
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -12,7 +10,6 @@ int main() {
   	// Initializing vector with array values
   	int arr[] = {10, 20, 5, 23 ,42 , 15};
   	int n = sizeof(arr)/sizeof(arr[0]);
-  
   	vector<int> vect(arr, arr+n);
 
   	cout << "Vector is: ";
